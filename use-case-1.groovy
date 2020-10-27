@@ -8,8 +8,8 @@ import java.io.FileInputStream
 import javax.xml.transform.stream.StreamSource
 import groovy.util.XmlParser
 
-def startingPoints=["Most_Granular_Level_Of_Jenkins_Folder"]
-def excludedPath = ["Project_3"]
+def startingPoints=["DevServices/Captial Markets and Finance/CMFT01/REO-VS/REOVS_RELEASE"]
+def excludedPath = ["ZRelease"]
 
 def allProject = []
 def excludedProjects = []
