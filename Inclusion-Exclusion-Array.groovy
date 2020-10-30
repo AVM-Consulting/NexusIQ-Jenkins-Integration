@@ -25,7 +25,7 @@ STARTING_PATH = "DevServices/Captial Markets and Finance/CMFT01/REO-VS/REOVS_REL
 FOLDER_EXCLUSIONS = ["ZRelease"]
 FOLDER_INCLUSIONS = []
 
-JOB_INCLUSION_PATTERN = ""
+JOB_INCLUSION_PATTERN = "_build"
 
 STEPXML='''
 <org.sonatype.nexus.ci.iq.IqPolicyEvaluatorBuildStep plugin="nexus-jenkins-plugin@3.9.20200722-164144.e3a1be0">
