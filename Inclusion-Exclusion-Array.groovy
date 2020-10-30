@@ -20,9 +20,9 @@ import com.cloudbees.hudson.plugins.folder.*
 *
 * STEPXML: XML obtained from a valid job that corresponds to the Build step
 */
-STARTING_PATH = "DevServices/Captial Markets and Finance/CMFT01/REO-VS/REOVS_RELEASE"
+STARTING_PATH = "A/Specific/Jenkins/Starting/Path"
 
-FOLDER_EXCLUSIONS = ["ZRelease"]
+FOLDER_EXCLUSIONS = ["Exclued_Folder_1","Exclued_Folder_2"]
 FOLDER_INCLUSIONS = []
 
 JOB_INCLUSION_PATTERN = "_build"
